@@ -30,8 +30,8 @@ data = load_data()
 model = load_model()
 
 if page == "Home":
-    st.title("Project Title")
-    st.write("Short description of the project and dataset.")
+    st.title("Diabetics Prediction Analyzer")
+    st.write("check out your own diabetic level")
     st.write("## Dataset overview")
     st.write(f"Shape: {data.shape}")
     st.write(data.describe())
